@@ -82,10 +82,20 @@ function squareDigit(numberToDigit) {
       result = result + numberToDigit[i] * numberToDigit[i];
     }
  
-return  result;
+return  result;;
+
 }
 
 alert(squareDigit('765'));
 
 
 
+function toBeHappy(timesOfLaugh) {
+    if (timesOfLaugh > 0) {
+       return 'Congratulations, you are happy!' 
+    } else {
+       return 'Congratulations, You are about to be happy!'
+    }
+}
+
+document.write(`<h1> ${toBeHappy(1)}</h1>`);
